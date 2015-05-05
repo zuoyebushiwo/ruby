@@ -9,7 +9,7 @@ def sendemail(subject,content,to=nil)
   
   #参数含义为：'your.smtp.server', 25, 'mail.from.domain','Your Account', 'Your Password', AuthType
   
-  smtp = Net::SMTP.start('smtp.yeah.net',25,'yeah.net','junxuezhang@yeah.net','dj82839958',:login)   
+  smtp = Net::SMTP.start('smtp.yeah.net',25,'yeah.net','junxuezhang@yeah.net','xxxx',:login)   
   smtp.send_message sendmessage,from,to
   smtp.finish   
 end  
